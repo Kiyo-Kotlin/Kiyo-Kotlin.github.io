@@ -1,0 +1,107 @@
+/* Google Fonts（Robotoの代用） */
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-Regular.woff2') format('woff2'),
+         url('fonts/Roboto-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 全体のフォント設定 */
+html, body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+}
+
+/* コンテナの最大幅と中央配置 */
+.container {
+    max-width: 1400px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* カードデザイン */
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* フレックスボックスで横並びを再現 */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+}
+
+/* ボタンデザイン */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: teal;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: darkcyan;
+}
+
+/* スキルバー */
+.skill-container {
+    background-color: #ddd;
+    border-radius: 5px;
+    margin: 10px 0;
+    position: relative;
+}
+
+.skill-bar {
+    background-color: teal;
+    height: 24px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    line-height: 24px;
+}
+
+/* フッター */
+.footer {
+    text-align: center;
+    background-color: teal;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* アイコンの代用 */
+.icon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin: 5px;
+}
+
+/* アイコンのSVGデザイン */
+.icon svg {
+    width: 100%;
+    height: 100%;
+    fill: white;
+}
+
+/* レスポンシブデザイン（スマホ対応） */
+@media screen and (max-width: 768px) {
+    .row {
+        flex-direction: column;
+    }
+}
