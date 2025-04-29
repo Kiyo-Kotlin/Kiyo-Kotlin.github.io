@@ -1,4 +1,202 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+    background: whitesmoke;
+}
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+hr {
+    background: grey;
+}
+
+#container {
+    position: relative;
+    display: flex; /* 横並びに配置 */
+    justify-content: space-between; /* 左右に広がるように配置 */
+    margin-top: 30px;
+}
+
+#profile {
+    flex: 0 0 25%; /* 左側のカラムの幅を固定 (25%に設定) */
+    display: block;
+    margin-left: 5%; /* 左側の余白 */
+    padding-right: 20px;
+    width: 100%;
+    background-color: #f8f8f8; /* 背景色を薄く */
+    border-radius: 8px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1); /* 少しシャドウを追加 */
+}
+
+#info-cards {
+    flex: 1; /* 右側のコンテンツは残りの幅を占める */
+    display: block;
+    margin-left: 20px; /* 左側のコンテンツとの間に隙間 */
+    width: 100%;
+    height: 100%;
+}
+
+#image {
+    position: relative;
+    overflow: hidden;
+}
+
+#image, #profile-photo {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#image > a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    display: none;
+}
+
+#image:hover a {
+    display: block;
+}
+
+#name {
+    font-size: 23px !important;
+    line-height: 20px !important;
+}
+
+#about, .card > ul > li {
+    padding: 0 0 0 15px;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+#about {
+    font-size: 20px !important;
+    padding: 0 !important;
+}
+
+#name, #about > p {
+    font-weight: bolder;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#email {
+    font-size: 15px !important;
+    font-weight: bold !important;
+    font-family: 'Cutive Mono', monospace;
+}
+
+#social-links {
+    margin-bottom: 12px;
+}
+
+#social-links a {
+    margin: 0 10px;
+}
+
+#social-links i {
+    font-size: 1.2em;
+}
+
+.card {
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+    overflow-x: hidden;
+    margin-bottom: 30px;
+    padding: 15px 30px 30px 30px;
+    background-color: #fff;
+}
+
+.card > p {
+    color: #0e141e;
+    font-weight: bolder;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.card > p > i {
+    font-size: 18px;
+}
+
+.card > a {
+    font-weight: 400;
+    font-size: 15px;
+    margin: 0;
+    margin-left: 25px;
+    padding: 0;
+    border: 0;
+    height: auto;
+    background: transparent;
+    color: #097bbf;
+    outline: none;
+    cursor: pointer;
+}
+
+.card > ul {
+    list-style-type: none;
+}
+
+.tags {
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+.tags ~ a {
+    display: none !important;
+}
+
+.tags span {
+    font-size: 14px;
+    font-weight: normal;
+    color: #0e141e;
+}
+
+.tags span span {
+    color: #738f93;
+}
+
+@media screen and (max-width: 1090px) {
+    #container {
+        display: block; /* モバイルサイズに合わせて縦に並べる */
+    }
+
+    #profile {
+        margin-left: 5%;
+        margin-right: 5%; /* 左右に余白 */
+    }
+
+    #info-cards {
+        margin-top: 30px; /* 右側のコンテンツに少し余白 */
+    }
+}
+
+@media screen and (max-width: 850px) {
+    #container {
+        display: block; /* 小さい画面では縦並びに */
+    }
+
+    #profile {
+        width: 100%; /* プロフィールの幅を全体に */
+        margin-left: 0; /* 左側余白を取り除く */
+    }
+
+    .card {
+        margin: 0 5%;
+        margin-bottom: 30px;
+    }
+}
+
+
+
+
+
+/*
 html{
     font-family: 'Open Sans',sans-serif;
     background: whitesmoke;
@@ -195,3 +393,5 @@ strong,span{
         margin-bottom: 30px;
     }
 }
+
+*/
