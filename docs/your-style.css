@@ -190,6 +190,7 @@ hr {
 
 
 /*
+
 html{
     font-family: 'Open Sans',sans-serif;
     background: whitesmoke;
@@ -388,3 +389,32 @@ strong,span{
 }
 
 */
+
+/*
+  #container {
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 30px;
+  }
+
+  #profile {
+      flex: 0 0 25%;
+      display: block;
+      margin-left: 5%;
+      padding-right: 20px;
+      width: 100%;
+      background-color: #f8f8f8; 
+      border-radius: 8px;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1); /* 少しシャドウを追加 */
+  }
+
+  #info-cards {
+      flex: 1; /* 右側のコンテンツは残りの幅を占める */
+      display: block;
+      margin-left: 20px; /* 左側のコンテンツとの間に隙間 */
+      width: 100%;
+      height: 100%;
+  }
+*/
+
