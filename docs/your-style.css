@@ -144,10 +144,21 @@ strong,span{
 }
 .card > p{
     color: #0e141e;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 2;
+}
+
+/*
+}
+.card > p{
+    color: #0e141e;
     font-weight: bolder;
     font-size: 18px;
     line-height: 2;
 }
+*/
+
 .card > p > i{
     font-size: 18px;
 }
