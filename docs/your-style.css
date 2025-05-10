@@ -26,7 +26,6 @@ hr{
     flex: 55%;
     display: block;
     margin-top: 5%;
-    margin-right: 10%;
     width: 100%;
     height: 100%;
 }
@@ -61,7 +60,7 @@ hr{
     line-height: 20px !important;
 }
 #about,.card > ul > li{
-    padding: 0 0 0 15px;
+    padding: 0 0 0 0px;
     position: relative;
     display: inline-block;
     width: 100%;
