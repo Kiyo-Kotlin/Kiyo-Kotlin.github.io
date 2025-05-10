@@ -74,12 +74,17 @@ hr{
     font-weight: bolder;
     font-family: 'Open Sans', sans-serif;
 }
+#email {
+    margin-top: 20px; /* ← 上に余白を追加 */
+}
+
 #email,#phone,#address{
     font-size: 15px !important;
+    line-height: 1.8;
     /* font-weight: bold !important;
     font-family: 'Cutive Mono',monospace; */
 }
-#college,#phone,#address,#year-graduation,#education, #programming-languages, #other-skills, #languages{
+#programming-languages, #other-skills, #languages{
     color: #555;
     font-size: 13.5px;
 }
