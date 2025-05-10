@@ -74,7 +74,7 @@ hr{
     font-family: 'Open Sans', sans-serif;
 }
 #email {
-    margin-top: 20px; /* ← 上に余白を追加 */
+    margin-top: 20px !important; /* ← 上に余白を追加 */
 }
 
 #email,#phone,#address{
