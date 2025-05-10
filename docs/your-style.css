@@ -133,6 +133,12 @@ strong,span{
     margin-bottom: 30px;
     padding: 15px 30px 30px 30px;
     background-color: #fff;
+    text-align: center; /* カード全体を中央寄せ */
+    }
+
+    /* タイトルだけ左寄せに戻す */
+    .card > p.small-text {
+        text-align: left;
 }
 .card > p{
     color: #0e141e;
