@@ -27,6 +27,7 @@ hr{
     display: block;
     margin-top: 5%;
     margin-right: 10%;
+    margin-left: 10%;
     width: 100%;
     height: 100%;
 }
@@ -36,7 +37,7 @@ hr{
 }
 #image,#profile-photo{
     position: relative;
-    width: 70px;
+    width: 90px;
     height: 90px;
     border-radius: 10px;
 }
@@ -74,12 +75,12 @@ hr{
     font-weight: bolder;
     font-family: 'Open Sans', sans-serif;
 }
-#email{
+#email,#phone,#address{
     font-size: 15px !important;
-    font-weight: bold !important;
-    font-family: 'Cutive Mono',monospace;
+    /* font-weight: bold !important;
+    font-family: 'Cutive Mono',monospace; */
 }
-#college,#email,#phone,#address,#year-graduation,#education, #programming-languages, #other-skills, #languages,{
+#college,#phone,#address,#year-graduation,#education, #programming-languages, #other-skills, #languages{
     color: #555;
     font-size: 13.5px;
 }
