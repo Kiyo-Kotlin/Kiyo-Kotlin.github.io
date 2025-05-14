@@ -163,6 +163,15 @@ strong,span{
 .card > p > i{
     font-size: 18px;
 }
+
+.card > p {
+    border-bottom: 2px solid black; /* ← 黒い線を下に引く */
+    padding-bottom: 5px; /* 線と文字の間に少しスペース */
+    margin-bottom: 10px; /* 線の下にスペース */
+    display: flex;
+    align-items: center;
+    gap: 10px; /* アイコンと文字の間を少しあける */
+}
 .card > a{
     font-weight: 400;
     font-size: 15px;
@@ -211,4 +220,6 @@ strong,span{
         margin-bottom: 30px;
     }
 }
+
+
 
