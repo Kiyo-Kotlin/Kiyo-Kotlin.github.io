@@ -81,8 +81,7 @@ hr{
 #email,#phone,#address{
     font-size: 15px !important;
     line-height: 1.8;
-    /* font-weight: bold !important;
-    font-family: 'Cutive Mono',monospace; */
+
 }
 #programming-languages, #other-skills, #languages{
     color: #555;
@@ -221,9 +220,13 @@ strong,span{
     }
 }
 #social-links i {
-    font-size: 24px;  /* ← 好きな大きさに変更できる */
-    color: #1967D2;   /* 色も統一 */
+    font-size: 24px;
+    color: #1967D2;
 }
+.card a i {
+    margin-right: 6px;
+}
+
 
 
 
